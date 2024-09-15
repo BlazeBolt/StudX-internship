@@ -132,3 +132,71 @@ h1, h4 {
         opacity: 1;
     }
 }
+
+@media screen and (max-width: 600px) {
+    .navbar {
+        font-size: 14px;
+    }
+    
+    .navbar-brand, .nav-link {
+        font-size: 12px;
+    }
+    
+    h1 {
+        font-size: 60px;
+    }
+
+    h4{
+        font-size: 30px;
+    }
+    
+    .heading {
+        font-size: 30px;
+        margin: 10px;
+    }
+    
+    .joinlink {
+        width: 150px;
+        margin-left: 180px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .home-image {
+        width: 100%;
+        margin: 50px;
+    }
+    
+    .about-text {
+        width: 80%;
+        margin-left: 60px;
+        margin-top: 50px;
+    }
+    
+    .about-image {
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+
+@keyframes slideTop {
+    0% {
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideRight {
+    0% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
