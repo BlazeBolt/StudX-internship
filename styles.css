@@ -1,0 +1,134 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    animation: slideTop 1s ease forwards;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: white;
+    z-index: 1;
+}
+
+.navbar-brand, .nav-link {
+    color: #f39c12;
+}
+
+.nav-link:hover {
+    color: black;
+}
+
+h1{
+    color: #ffffff;
+
+}
+
+h1, h4 {
+    text-align: center;
+    animation: slideTop 1s ease forwards;
+}
+.home{
+    color: antiquewhite;
+}
+
+.heading{
+    font-size: 60px;
+    margin: 20px;
+    z-index: -100;
+}
+
+.brand {
+    color: #f39c12;
+}
+
+.joinlink {
+    background-color: #f39c12;
+    width: 200px;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    margin-left: 41%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    animation: slideTop 1s ease forwards;
+}
+
+.joinlink:hover {
+    background-color: #e67e22;
+}
+
+.home-image {
+    display: block;
+    max-width: 80%;
+    height: auto;
+    margin-left: 150px;
+    animation: slideTop 1s ease forwards;
+}
+
+.btn-warning {
+    background-color: #f39c12;
+    border-color: #f39c12;
+    color: #000000;
+}
+
+.btn-warning:hover {
+    background-color: #e67e22;
+    border-color: #d35400;
+}
+
+.container-fluid {
+    padding: 20px;
+}
+
+.navbar-toggler {
+    border-color: #f39c12;
+}
+
+.navbar-nav {
+    margin: 0 auto;
+}
+
+.about-text{
+    color: antiquewhite;
+    display: inline-block;
+    flex-wrap: wrap;
+    text-align: justify;
+    width: 40%;
+    margin-left: 60px;
+    margin-top: 150px;
+    animation: slideRight 1s ease forwards;
+}
+
+.about-image{
+    display: inline-block;
+    width: 50%;
+    animation: slideRight 2s ease forwards;
+}
+
+@keyframes slideTop {
+    0%{
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideRight {
+    0%{
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
